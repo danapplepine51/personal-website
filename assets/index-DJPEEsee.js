@@ -52,7 +52,7 @@ Error generating stack: `+n.message+`
             px-4 text-lg font-medium`,initial:{opacity:0,y:100},animate:{opacity:1,y:0},transition:{delay:.1},children:[G.jsxs("a",{className:`group bg-white text-gray-500 px-7 py-3 flex
                 items-center gap-2 rounded-full outline-none
                 focus:scale-110 hover:scale-110 active:scale-105 transition
-                cursor-pointer`,href:"/CV.pdf",children:["Download CV ",G.jsx(UA,{className:"opacity-60 group-hover:translate-y-1 transition"})]}),G.jsx("a",{className:`bg-white p-4 text-gray-700 flex
+                cursor-pointer`,href:"/personal-website/CV.pdf",children:["Download CV ",G.jsx(UA,{className:"opacity-60 group-hover:translate-y-1 transition"})]}),G.jsx("a",{className:`bg-white p-4 text-gray-700 flex
                 items-center gap-2 rounded-full
                 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition
                 cursor-pointer`,href:"https://linkedin.com/in/daniel-minhoi-song",target:"_blank",children:G.jsx(jA,{})}),G.jsx("a",{className:`bg-white p-4 text-gray-700 flex
