@@ -14,7 +14,7 @@ export default function Header(){
         shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]
         sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0}}
-        animate={{ y: 0, x: "-50%",opacity: 1}}
+        animate={{ y: 0, x: "-50%", opacity: 1}}
         ></motion.div>
 
         <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">

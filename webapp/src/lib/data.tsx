@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "/corpcomment.png";
-import rmtdevImg from "/rmtdev.png";
+import sharletImg from "/sharlet.png";
 import humanposeImg from "/humanposeImg.png";
 
 
@@ -11,10 +11,10 @@ export const links = [
     name: "Home",
     hash: "#home",
   },
-  {
-    name: "About",
-    hash: "#about",
-  },
+  // {
+  //   name: "About",
+  //   hash: "#about",
+  // },
   {
     name: "Projects",
     hash: "#projects",
@@ -70,18 +70,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Stock Data Pipeline",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Pending",
     tags: ["React"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Sharlet",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React"],
-    imageUrl: rmtdevImg,
+      "Current. Sharlet Description",
+    tags: ["React", "Typescript", "Flask", "Python", "Postgresql", "RestAPI"],
+    imageUrl: sharletImg,
   },
   {
     title: "Fast Human Pose Estimation",
@@ -93,17 +93,13 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Git",
-  "Tailwind",
   "PostgreSQL",
   "MySQL",
   "Python",
-  "Framer Motion",
-  "Spring Boot"
+  "Spring Boot",
+  "Kafka",
+  "AWS"
 ] as const;

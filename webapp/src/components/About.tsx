@@ -14,7 +14,8 @@ export default function About() {
     //         setActiveSection("About");
     //     }
     // }, [inView, setActiveSection, timeOfLastClick]);
-    const { ref } = useSectionInView('About', 0.1);
+    // const { ref } = useSectionInView('About', 0.1);
+    const { ref } = useSectionInView('Home', 0.1);
 
     return (
         <motion.section ref = {ref} className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40

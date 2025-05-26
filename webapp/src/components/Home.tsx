@@ -49,7 +49,7 @@ export default function Home(){
             </motion.h1>
 
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2
-            px-4 text-lg font-medium"
+            px-4 text-lg font-medium mb-5"
             initial={{opacity: 0, y: 100}}
             animate={{opacity: 1, y: 0}}
             transition={{delay: 0.1}}>
@@ -61,7 +61,7 @@ export default function Home(){
                 <a className="group bg-white text-gray-500 px-7 py-3 flex
                 items-center gap-2 rounded-full outline-none
                 focus:scale-110 hover:scale-110 active:scale-105 transition
-                cursor-pointer" href="/CV.pdf" /*download={true}*/>Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
+                cursor-pointer" href="/personal-website/CV.pdf" /*download={true}*/>Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
                 </a>
                 <a className="bg-white p-4 text-gray-700 flex
                 items-center gap-2 rounded-full
@@ -74,6 +74,19 @@ export default function Home(){
                 cursor-pointer" href="https://github.com" target="_blank"><FaGithubSquare />
                 </a>
             </motion.div>
+            <motion.div className="max-w-[45rem] text-center leading-8 sm:mb-10 scroll-mt-20"
+                initial = {{ opacity: 0, y:100 }}
+                animate = {{ opacity: 1, y: 0}}
+                transition = {{ delay: 0.175}}
+                >
+                    <p>
+                    Hi, I&apos;m Daniel (Min Hoi) Song.<br/>
+                    I&apos;ve recently begun my journey in <b>Data Engineering</b> and <b>Software Development(mostly backend)</b>, where I enjoy designing scalable systems, optimizing data pipelines,
+                    and building applications that are both functional and user-friendly.<br/>
+                    I&apos;m passionate about leveraging technology to solve real-world problems that make a meaningful impact.<br/>
+                    
+                    </p>
+                </motion.div>
         </section>
     )
 }

@@ -7,7 +7,7 @@ import ActiveSectionContextProvider from './context/active-section-context.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ActiveSectionContextProvider>
-        <App />
+      <App />
     </ActiveSectionContextProvider>
   </StrictMode>
 )
