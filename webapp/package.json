@@ -2,7 +2,7 @@
   "name": "webapp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://danielsong.github.io/personal-website",
+  "homepage": "https://danapplepine51.github.io/personal-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
