@@ -1,0 +1,109 @@
+import React from "react";
+import { CgWorkAlt } from "react-icons/cg";
+import { LuGraduationCap } from "react-icons/lu";
+import corpcommentImg from "/corpcomment.png";
+import rmtdevImg from "/rmtdev.png";
+import humanposeImg from "/humanposeImg.png";
+
+
+export const links = [
+  {
+    name: "Home",
+    hash: "#home",
+  },
+  {
+    name: "About",
+    hash: "#about",
+  },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
+    name: "Skills",
+    hash: "#skills",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
+  // {
+  //   name: "Contact",
+  //   hash: "#contact",
+  // },
+] as const;
+
+export const experiencesData = [
+  {
+    title: "B.S. Computer Science",
+    location: "Minneapolis, MN",
+    description:
+      "I graduated after 4 years of studying. I acheived Bachelor's degree.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019",
+  },
+  {
+    title: "Research Engineer(Intern)",
+    location: "Seoul, KR",
+    description:
+      "I worked as a research engineer intern. I did research on real-time human joints tracking using deep learning.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2021",
+  },
+  {
+    title: "M.S. Computer Science",
+    location: "Minneapolis, MN",
+    description:
+      "I graduted after 2.5 years of studtying computer science again. I acheived Master's degree.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - 2022",
+  },
+  {
+    title: "Software QA Engineer",
+    location: "Berkeley Heights, NJ",
+    description:
+      "I work",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Current",
+  },
+] as const;
+
+export const projectsData = [
+  {
+    title: "CorpComment",
+    description:
+      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["React"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "rmtDev",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React"],
+    imageUrl: rmtdevImg,
+  },
+  {
+    title: "Fast Human Pose Estimation",
+    description:
+      "",
+    tags: ["Pytorch", "Python", "C++"],
+    imageUrl: humanposeImg,
+  },
+] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Git",
+  "Tailwind",
+  "PostgreSQL",
+  "MySQL",
+  "Python",
+  "Framer Motion",
+  "Spring Boot"
+] as const;
