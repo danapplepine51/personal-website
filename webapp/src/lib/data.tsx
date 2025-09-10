@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "/corpcomment.png";
+// import corpcommentImg from "/corpcomment.png";
 import sharletImg from "/sharlet.png";
 import humanposeImg from "/humanposeImg.png";
 
@@ -62,7 +62,7 @@ export const experiencesData = [
     title: "Software QA Engineer",
     location: "Berkeley Heights, NJ",
     description:
-      "I work",
+      "",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Current",
   },
@@ -70,7 +70,7 @@ export const experiencesData = [
     title: "Solutions Architect",
     location: "Ridgefield Park, NJ",
     description:
-      "I work",
+      "",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Current",
   },
@@ -87,7 +87,7 @@ export const projectsData = [
   {
     title: "Sharlet",
     description:
-      "Current. Sharlet Description",
+      "",
     tags: ["React", "Typescript", "Flask", "Python", "Postgresql", "RestAPI"],
     imageUrl: sharletImg,
   },
