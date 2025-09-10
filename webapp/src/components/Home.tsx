@@ -81,9 +81,10 @@ export default function Home(){
                 >
                     <p>
                     Hi, I&apos;m Daniel (Min Hoi) Song.<br/>
-                    I&apos;ve recently begun my journey in <b>Data Engineering</b> and <b>Software Development(mostly backend)</b>, where I enjoy designing scalable systems, optimizing data pipelines,
+                    While I currently work as a Solutions Architect, I&apos;ve found myself increasingly drawn to <b>Data Engineering</b> and <b>Software Development(mostly backend)</b>, where I enjoy building scalable systems, optimizing data pipelines,
                     and building applications that are both functional and user-friendly.<br/>
                     I&apos;m passionate about leveraging technology to solve real-world problems that make a meaningful impact.<br/>
+                    
                     
                     </p>
                 </motion.div>
