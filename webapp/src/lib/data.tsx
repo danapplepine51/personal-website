@@ -77,13 +77,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Stock Data Pipeline",
-    description:
-      "Pending",
-    tags: ["React"],
-    imageUrl: corpcommentImg,
-  },
+  // {
+  //   title: "Stock Data Pipeline",
+  //   description:
+  //     "Pending",
+  //   tags: ["React"],
+  //   imageUrl: corpcommentImg,
+  // },
   {
     title: "Sharlet",
     description:
